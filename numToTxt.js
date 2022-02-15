@@ -23,8 +23,8 @@ function numToTxt(num) {
     }
     console.log(str);
 }
-
-numToTxt(16050)
+module.exports = numToTxt
+// numToTxt(16050)
 
 function getSingleNumTxt(num) {
     const helper = {

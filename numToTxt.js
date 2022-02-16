@@ -21,7 +21,7 @@ function numToTxt(num) {
         str = currStr + str
         num = parseInt((num / 1000).toString())
     }
-    console.log(str);
+    return str
 }
 module.exports = numToTxt
 // numToTxt(16050)

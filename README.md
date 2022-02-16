@@ -9,6 +9,7 @@ npm i numbertotxt
 ```javascript
 const numberToTxt=require('numbertotxt')
 numberToTxt(15)
-
+fifteen
 numberToTxt(9834794)
+nine million eight hundreds and thirty four thousand seven hundreds and ninety four  
 ```
